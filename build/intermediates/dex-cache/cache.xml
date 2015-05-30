@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/naman/Github/PlayAnimations/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/naman/Github/PlayAnimations/app/build/intermediates/pre-dexed/debug/classes-1505eb45103916915ff6a6f3f13528a9c5bd3a10.jar" />
+    </item>
+    <item
+        jar="/Users/naman/Github/PlayAnimations/app/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.2.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="65620ba5e576dcec2c86efa440b00d042a27383b">
+        <dex dex="/Users/naman/Github/PlayAnimations/app/build/intermediates/pre-dexed/debug/classes-a0585ef09c78baa441e215cf5825ef4ff76c3b6f.jar" />
+    </item>
+    <item
+        jar="/Users/naman/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/naman/Github/PlayAnimations/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-9776ae880f0f62c42d19cd5f44a521ec8209143d.jar" />
+    </item>
+    <item
+        jar="/Users/naman/Github/PlayAnimations/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="/Users/naman/Github/PlayAnimations/app/build/intermediates/pre-dexed/debug/classes-e34e4e10cd6e38f4840b18e27c3b709438dca31a.jar" />
+    </item>
+    <item
+        jar="/Users/naman/Github/PlayAnimations/app/build/intermediates/exploded-aar/com.jpardogo.materialtabstrip/library/1.0.6/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="15ebf37e2dc7047e993afdfb308610e171bcea1b">
+        <dex dex="/Users/naman/Github/PlayAnimations/app/build/intermediates/pre-dexed/debug/classes-d2f08f095dfa3fbce966d2a3643918fcf94f503b.jar" />
+    </item>
+    <item
+        jar="/Users/naman/Github/PlayAnimations/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/naman/Github/PlayAnimations/app/build/intermediates/pre-dexed/debug/classes-7bac70dff6e2527889701c3dfc399fbdaca57ab9.jar" />
+    </item>
+    <item
+        jar="/Users/naman/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/naman/Github/PlayAnimations/app/build/intermediates/pre-dexed/debug/library-2.4.0-baa82a14110d71bbabaf486be6fb560bebc25537.jar" />
+    </item>
+    <item
+        jar="/Users/naman/Github/PlayAnimations/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/Users/naman/Github/PlayAnimations/app/build/intermediates/pre-dexed/debug/classes-cf91ec744424483ebc44c6c1d6b2ae5b85cbf179.jar" />
+    </item>
+    <item
+        jar="/Users/naman/Github/PlayAnimations/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/naman/Github/PlayAnimations/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-bc1d30282704504e55dbeae8af9efb4e3a3ffda6.jar" />
+    </item>
+
+</items>
