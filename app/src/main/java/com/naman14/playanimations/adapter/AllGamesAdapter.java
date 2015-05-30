@@ -67,7 +67,7 @@ public class AllGamesAdapter extends RecyclerView.Adapter<AllGamesAdapter.AllGam
         @Override
         public void onClick(View v) {
             Intent intent=new Intent(mContext, DetailActivity.class);
-            ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(MainActivity.getInstance(), Pair.create((View)icon, "icon"));
+            ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(MainActivity.getInstance(), Pair.create((View)icon, "cover"),Pair.create((View)icon, "icon"));
             mContext.startActivity(intent,options.toBundle());
         }
 

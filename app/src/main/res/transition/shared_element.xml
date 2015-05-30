@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<transition xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    class="com.naman14.playanimations.PlayTransition"
-    app:color="#6c1622"/>
+
+<transitionSet
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="200"
+    android:transitionOrdering="together">
+
+    <transitionSet>
+        <transition
+            class="com.naman14.playanimations.PlayTransition"/>
+        <targets>
+            <target android:excludeId="@id/icon" /> />
+        </targets>
+        </transitionSet>
+
+    <autoTransition/>
+
+</transitionSet>
