@@ -2,10 +2,10 @@
 
 <transitionSet
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:duration="200"
-    android:transitionOrdering="together">
+    android:transitionOrdering="together"
+    android:duration="240">
 
-    <transitionSet>
+    <transitionSet   >
         <transition
             class="com.naman14.playanimations.PlayTransition"/>
         <targets>
