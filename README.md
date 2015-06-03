@@ -23,6 +23,7 @@ We will specify the transition in our theme. Add this attribute to your v21 them
 ```
 
 We will define our own custom Transition instead of the default Transition.
+#####res/transition/shared_element.xml
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <!-- --A set of transitions on two views performed together <!-- -->
