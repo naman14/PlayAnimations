@@ -22,7 +22,7 @@ public class MainActivity extends ActionBarActivity {
     private Toolbar toolbar;
     private static MainActivity sMainActivity;
 
-    String Urlgithub="https://github.com/naman14/PlayAnimations";
+    String Urlgithub = "https://github.com/naman14/PlayAnimations";
 
     public static MainActivity getInstance() {
         return sMainActivity;
@@ -33,11 +33,11 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        sMainActivity=this;
+        sMainActivity = this;
         setContentView(R.layout.activity_main);
 
-         toolbar = (Toolbar) findViewById(R.id.toolbar);
-         setSupportActionBar(toolbar);
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         mPagerSlidingTabStrip = (PagerSlidingTabStrip) findViewById(R.id.tabs);
         mViewPager = (ViewPager) findViewById(R.id.pager);
@@ -53,14 +53,11 @@ public class MainActivity extends ActionBarActivity {
 
     public class PagerAdapter extends FragmentPagerAdapter {
 
-
-        private final String[] TITLES = { "Recent Games","All My Games" };
-
+        private final String[] TITLES = {"Recent Games", "All My Games"};
 
         public PagerAdapter(FragmentManager fm) {
             super(fm);
         }
-
 
 
         @Override
@@ -76,18 +73,16 @@ public class MainActivity extends ActionBarActivity {
         @Override
         public Fragment getItem(int position) {
 
-
-            Fragment fragment=null;
+            Fragment fragment = null;
 
             switch (position) {
 
-
                 case 0:
-                 fragment = new RecentGamesFragment();
-                break;
+                    fragment = new RecentGamesFragment();
+                    break;
 
                 case 1:
-                     fragment = new AllGamesFragment();
+                    fragment = new AllGamesFragment();
                     break;
 
             }

@@ -5,8 +5,8 @@ package com.naman14.playanimations.adapter;
  */
 public class GamesData {
 
-    int cover,icon;
-    String gameName,publisher;
+    int cover, icon;
+    String gameName, publisher;
 
     public String getGameName() {
         return gameName;
