@@ -54,8 +54,8 @@ public class RecentGamesAdapter extends RecyclerView.Adapter<RecentGamesAdapter.
     }
 
     public class RecentGamesListRowHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        protected ImageView icon,cover;
-        protected TextView game,publisher;
+        protected ImageView icon, cover;
+        protected TextView game, publisher;
 
         public RecentGamesListRowHolder(View view) {
             super(view);
@@ -70,9 +70,9 @@ public class RecentGamesAdapter extends RecyclerView.Adapter<RecentGamesAdapter.
 
         @Override
         public void onClick(View v) {
-            Intent intent=new Intent(mContext, DetailActivity.class);
+            Intent intent = new Intent(mContext, DetailActivity.class);
             ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(MainActivity.getInstance(), Pair.create((View) cover, "cover"));
-            mContext.startActivity(intent,options.toBundle());
+            mContext.startActivity(intent, options.toBundle());
         }
 
     }

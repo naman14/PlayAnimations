@@ -53,8 +53,8 @@ public class AllGamesAdapter extends RecyclerView.Adapter<AllGamesAdapter.AllGam
 
 
     public class AllGamesGridHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        protected ImageView icon,cover;
-        protected TextView game,publisher;
+        protected ImageView icon, cover;
+        protected TextView game, publisher;
 
         public AllGamesGridHolder(View view) {
             super(view);
@@ -66,9 +66,9 @@ public class AllGamesAdapter extends RecyclerView.Adapter<AllGamesAdapter.AllGam
 
         @Override
         public void onClick(View v) {
-            Intent intent=new Intent(mContext, DetailActivity.class);
-            ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(MainActivity.getInstance(), Pair.create((View)icon, "cover"),Pair.create((View)icon, "icon"));
-            mContext.startActivity(intent,options.toBundle());
+            Intent intent = new Intent(mContext, DetailActivity.class);
+            ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(MainActivity.getInstance(), Pair.create((View) icon, "cover"), Pair.create((View) icon, "icon"));
+            mContext.startActivity(intent, options.toBundle());
         }
 
     }
